@@ -27,8 +27,13 @@ public class EnemyMovement : MonoBehaviour
         {
             waypointIndex++;
         }
+        //if enemy reaches last waypoint aka the players base
         if(waypointIndex == wPoints.waypoints.Length)
         {
+            //get the "Enemy" component, call the "DealDamage" method and get from the same component the damage variable
+            GetComponent<Enemy>().DealDamage(GetComponent<Enemy>().damage);
+
+            //lastly, destroy this gameObject aka this Enemy
             Destroy(gameObject);
         }
     }

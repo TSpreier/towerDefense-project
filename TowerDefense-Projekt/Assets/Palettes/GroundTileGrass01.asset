@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: GroundTileGrass01
   m_EditorClassIdentifier: 
   m_Sprite: {fileID: 21300000, guid: ade566f19ce8a904692d5cbad25c6fbc, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0.34509805, g: 0.54509807, b: 0.17254902, a: 1}
   m_Transform:
     e00: 1
     e01: 0
